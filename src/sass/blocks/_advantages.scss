@@ -1,0 +1,41 @@
+.advantages {
+    min-height: 470px;
+    padding: 70px 0 65px 0;
+    background-color: #F6F6F6;
+    &__subheader {
+        margin: 0;
+        font-weight: 700;
+        font-size: 30px;
+        color: #0D0D0D;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    &__cards {
+        margin-top: 60px;
+        width: 950px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__card {
+        width: 275px;
+        font-weight: 300;
+        font-size: 14px;
+        color: #0D0D0D;
+        text-align: center;
+        line-height: 18px;
+        i {
+            display: block;
+            color: $main-color;
+        }
+        h3 {
+            margin: 35px 0 20px 0;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 29px;
+        }
+        a {
+            text-decoration-line: underline;
+            color: $main-color;
+        }
+    }
+}
