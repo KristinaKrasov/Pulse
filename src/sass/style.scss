@@ -1,6 +1,6 @@
 @import 'base/mixins';
 @import 'base/variables';
-@import 'base/media';
+
 
 * {
     font-family: 'MuseoModerno', cursive;
@@ -18,4 +18,4 @@ a {
 @import 'blocks/header';
 @import 'blocks/buttons';
 @import 'blocks/advantages';
-
+@import 'base/media';
