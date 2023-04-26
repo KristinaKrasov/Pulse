@@ -9,11 +9,16 @@
             display: none;
         }
         &__official {
-            display: none;
+            position: absolute;
+            bottom: 10px;
+            font-size: 12px;
+            span {
+                font-size: 13px;
+            }
         }
         &__logo {
             display: block;
-            width: 210px;
+            width: 180px;
         }
         &__hamburger {
             display: block;
@@ -30,52 +35,53 @@
         }
     }
     .promo {
+        position: relative;
         min-height: 400px;
         padding: 2px 0 50px 0;
-        background: url(../img/bg.png) top right no-repeat;
+        background: url(../img/bg_m.png) center (center/cover) no-repeat;
         &__wrapper {
             margin-top: 60px;
             align-items: center;
         }
         &__header {
-            font-size: 20px;
-            line-height: 20px;
+            font-size: 18px;
+            line-height: 29px;
         }
         &__subheader {
-            margin-top: 15px;
-            text-align: center;
-            font-size: 16px;
-            line-height: 22px;
+            margin: 0;
+            font-size: 12px;
+            line-height: 19px;
         }
         &__icons {
             display: none;
         }
+        
         &__link {
-            margin-top: 10px;
-            font-size: 12px;
+            display: none;
         }
     }
     .button {
         &_main {
-            width: 230px;
-            height: 36px;
-            font-size: 13px;
-            margin-top: 80px;   
+            width: 240px;
+            height: 50px;
+            font-size: 14px;
+            margin-top: 50px;   
         }
     }
     .advantages {
+        padding: 40px 0 20px 0;
         &__subheader {
             margin: 0;
             font-size: 20px;
         }
         &__cards {
-            margin: 0;
+            margin: 10px 0 0 0;
             width: 100%;
             flex-direction: column;
             align-items: center;
         }
         &__card {
-            margin-top: 40px;
+            margin-top: 20px;
             width: 280px;
             font-size: 14px;
             line-height: 18px;
