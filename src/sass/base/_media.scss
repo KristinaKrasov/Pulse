@@ -68,12 +68,12 @@
             margin-top: 50px;   
         }
     }
+    .title {
+        margin: 0;
+        font-size: 20px;
+    }
     .advantages {
         padding: 40px 0 20px 0;
-        &__subheader {
-            margin: 0;
-            font-size: 20px;
-        }
         &__cards {
             margin: 10px 0 0 0;
             width: 100%;
@@ -98,22 +98,8 @@
     }
 }
 
-@media only screen and (max-width : 575px) {
-    
-}
-
-@media only screen and (max-width : 767px) {
-    
-}
-
-@media only screen and (max-width : 991px) {
-    
-}
-
-@media only screen and (max-width : 1199px) {
-    
-}
-
-@media only screen and (max-width : 1399px) {
-    
-}
+//@media only screen and (max-width : 575px)
+//@media only screen and (max-width : 767px)
+//@media only screen and (max-width : 991px)
+//@media only screen and (max-width : 1199px)
+//@media only screen and (max-width : 1399px)
