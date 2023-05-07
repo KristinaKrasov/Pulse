@@ -1,9 +1,166 @@
 @media only screen and (max-width : 319px) {
     
+    .promo {
+        position: relative;
+        min-height: 400px;
+        padding: 16px 0 10px 0;
+        background-image: url(../img/bg.png);
+        background-position: -300px 0;
+        background-repeat: no-repeat;
+        &__wrapper {
+            align-items: center;
+            margin-top: 56px;
+        }
+        &__header {
+            font-size: 18px;
+            line-height: 29px;
+        }
+        &__subheader {
+            margin: 0;
+            font-size: 12px;
+            line-height: 19px;            
+        }
+        &__icons {
+            display: none;
+        }
+        &__link {
+            display: none;
+        }
+        &__official {
+            margin-top: 100px;
+            display: block;
+            font-weight: 500;
+            font-size: 11px;
+            line-height: 17px;
+            color: #FFFFFF;
+            text-align: center;
+            span {
+                display: block;
+                font-size: 12px;
+                line-height: 19px;
+            }
+        }
+    }
+    .button {
+        &_main {
+            margin-top: 50px;
+            width: 227px;
+            height: 50px;
+            font-size: 14px;
+        }
+    }
+    .header {
+        margin: 0 28px 0 16px;
+        height: 35px;
+        &__logo {
+            display: block;
+            width: 182px;
+        }
+        &__official {
+            display: none;
+        }
+        &__hamburger {
+            margin-bottom: 4px;
+            display: block;
+            width: 24px;
+            height: 18px;
+            span {
+                display: block;
+                width: 24px;
+                height: 2px;
+                background: #FFFFFF;
+                border-radius: 1px;
+                margin-top: 4px;
+            }
+        }
+        &__contacts {
+            display: none;
+        }
+    }
+    .advantages {
+        min-height: 745px;
+        padding: 40px 20px;
+        .title {
+        font-size: 16px;
+        line-height: 25px;
+        }
+        &__cards {
+            margin-top: 10px;
+            max-width: 280px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        &__card {
+            padding: 20px 10px;
+            width: 100%;
+            font-size: 12px;
+            line-height: 18px;
+            i {
+                margin-bottom: 10px;
+                font-size: 60px;
+            }
+            h3 {
+                margin-bottom: 10px;
+                font-size: 14px;
+                line-height: 22px;
+            }
+        }
+    }
+    
+    .consultation {
+        min-height: 445px;
+        padding: 40px 0 54px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .title {
+            &_left {
+                font-size: 17px;
+                line-height: 27px;
+                text-align: center;
+            }
+        }
+        &__descr {
+            margin-top: 16px;
+            text-align: center;
+            font-size: 11px;
+            line-height: 17px;
+        }
+        .feed-form {
+            display: block;
+            margin: 0 auto;
+            margin-top: 24px;
+            width: 230px;
+            input {
+                margin-bottom: 5px;
+                height: 45px;
+                width: 230px;
+                font-size: 11px;
+            }
+            .button {
+                &_submit {
+                    margin-top: 5px;
+                    font-size: 14px;
+                    width: 230px;
+                    height: 45px;
+                }
+            }
+        }
+    }
 }
 
 //@media only screen and (max-width : 575px)
+@media only screen and (min-width : 576px) {
+    .header {
+        &__hamburger {
+            display: none;
+        }
+    }
+}
 //@media only screen and (max-width : 767px)
 //@media only screen and (max-width : 991px)
 //@media only screen and (max-width : 1199px)
-//@media only screen and (max-width : 1399px)
+@media only screen and (max-width : 1399px) {
+    
+}

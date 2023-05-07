@@ -1,10 +1,12 @@
+* {
+    font-family: 'Museo Sans Cyrl';
+}
+
+
 @import 'base/mixins';
 @import 'base/variables';
 
 
-* {
-    font-family: 'MuseoModerno', cursive;
-}
 
 a {
     text-decoration: none;
@@ -18,9 +20,9 @@ a {
 @import 'blocks/header';
 @import 'blocks/buttons';
 @import 'blocks/advantages';
-@import 'base/media';
 @import 'blocks/consultation';
 @import 'blocks/title';
 @import 'blocks/forms';
 @import 'blocks/carousel';
 @import 'blocks/catalog';
+@import 'base/media';
