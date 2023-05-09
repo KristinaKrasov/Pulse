@@ -107,7 +107,6 @@
             }
         }
     }
-    
     .consultation {
         min-height: 445px;
         padding: 40px 0 54px 0;
@@ -145,6 +144,124 @@
                     width: 230px;
                     height: 45px;
                 }
+            }
+        }
+    }
+    .catalog {
+        padding-bottom: 100px;
+        .title {
+            font-size: 14px;
+            line-height: 22px;
+        }
+        &__tabs {
+            margin: 0 auto;
+            max-width: 300px;
+            margin-top: 25px;
+        }
+        &__tab {
+            padding: 0 10px;
+            margin: 0 3px;
+            width: 100px;
+            height: 40px;
+            font-weight: 400;
+            font-size: 11px;
+            line-height: 17px;
+            text-align: center;
+            div {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100%;
+            }
+        }
+        &__content {
+            margin: 0 auto;
+            margin-top: 30px;
+            /* display: none;           don't change it!!!  */
+            justify-content: space-around;
+            flex-wrap: wrap;
+            &_active {
+                display: flex; /* and this too don't change */
+            }
+        }
+        &-item {
+            padding: 9px;
+            width: 152px;
+            min-height: 336px;
+            /* &__img {
+                height: 140px; 
+            }*/
+            &__subtitle {
+                margin-top: 5px;
+                font-size: 12px;
+            }
+            &__descr {
+                margin-top: 5px;
+                font-size: 9px;
+                line-height: 14px;
+            }
+            &__link {
+                margin-top: 5px;
+                font-size: 11px;
+            }
+            hr {
+                display: none;
+            }
+            &__footer {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+            }
+            &__prices {
+                text-align: center;
+            }
+            &__old-price {
+                font-size: 12px;
+            }
+            &__price {
+                font-size: 14px;
+            }
+            .button {
+                &_mini {
+                    width: 120px;
+                    height: 35px;
+                    font-size: 14px;
+                }
+            }
+            &__wrapper {
+                /* display: flex; */
+                width: calc(200% + 18px);
+            }
+            &__content {
+                padding-right: 9px;
+                &_active {
+                    margin-right: 0;
+                    padding-right: 0;
+                } 
+            }
+            &__list {
+                margin-top: 5px;
+                padding-right: 9px;
+                padding-left: 15px;
+                li {
+                    font-size: 9px;
+                    margin-bottom: 10px;
+                    &::before {
+                        content: '';
+                        position: absolute;
+                        width: 5px;
+                        height: 5px;
+                        background-color: $main-color;
+                        left: -14px;
+                        top: 4px;
+                    }
+                }
+            }
+            &__back {
+                transform: translateX(-50%);
+                display: block;
+                font-size: 11px;
             }
         }
     }
