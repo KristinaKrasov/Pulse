@@ -9,4 +9,15 @@
         font-size: 20px;
         line-height: 30px;
     }
+    .error {
+        border: 1px solid red;
+    }
+    label.error {
+        border: none;
+        text-align: start;
+        margin-top: 5px;
+        font-size: 12px;
+        line-height: 12px;
+        color: #FFFFFF;
+    }
 }

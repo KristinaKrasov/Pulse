@@ -48,7 +48,7 @@
             font-size: 14px;
         }
         &_submit {
-            margin-top: 10px;
+            margin-top: 15px;
             font-size: 14px;
             width: 230px;
             height: 45px;
@@ -133,7 +133,7 @@
         flex-direction: column;
         align-items: center;
         &__descr {
-            margin-top: 10px;
+            margin-top: 5px;
             text-align: center;
             font-size: 12px;
             line-height: 19px;
@@ -142,10 +142,10 @@
     .feed-form {
         display: block;
         margin: 0 auto;
-        margin-top: 35px;
+        margin-top: 10px;
         width: 230px;
         input {
-            margin-bottom: 10px;
+            margin-top: 10px;
             height: 45px;
             width: 230px;
             font-size: 11px;
@@ -346,14 +346,21 @@
         .feed-form {
             display: block;
             margin: 0 auto;
-            margin-top: 20px;
+            margin-top: 10px;
             width: 230px;
             input {
-                margin-bottom: 5px;
+                margin: 0;
+                margin-top: 10px;
                 height: 45px;
                 width: 230px;
                 font-size: 9px;
             }
+        }
+        label.error {
+            border: none;
+            text-align: start;
+            margin-top: 0;
+            font-size: 9px;
         }
     }
 }
