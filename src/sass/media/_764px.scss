@@ -53,8 +53,8 @@
         &_submit {
             margin-top: 5px;
             font-size: 14px;
-            width: 230px;
-            height: 45px;
+            width: 250px;
+            height: 55px;
         }
         &_mini {
             margin-top: 5px;
@@ -113,13 +113,13 @@
             flex-direction: column;
             align-items: center;
         }
+        &__icon {
+            margin-bottom: 10px;
+            font-size: 60px;
+        }
         &__card {
             padding: 20px 10px;
             width: 100%;
-            i {
-                margin-bottom: 10px;
-                font-size: 60px;
-            }
             h3 {
                 margin-bottom: 10px;
                 font-size: 18px;
@@ -134,7 +134,7 @@
         flex-direction: column;
         align-items: center;
         &__descr {
-            margin-top: 35px;
+            margin-top: 10px;
             text-align: center;
             font-size: 16px;
             line-height: 18px;
@@ -142,12 +142,12 @@
         .feed-form {
             display: block;
             margin: 0 auto;
-            margin-top: 15px;
-            width: 230px;
+            margin-top: 35px;
+            width: 250px;
             input {
                 margin-bottom: 5px;
-                height: 45px;
-                width: 230px;
+                height: 50px;
+                width: 250px;
                 font-size: 12px;
             }
         }
@@ -202,7 +202,7 @@
         }
     }
     .catalog {
-        padding-bottom: 100px;
+        padding-bottom: 70px;
         &__tabs {
             margin: 0 auto;
             margin-top: 25px;
@@ -211,7 +211,7 @@
         &__content {
             margin: 0 auto;
             margin-top: 30px;
-            max-width: 490px;
+            width: 100%;
             /* display: none;           don't change it!!!  */
             justify-content: space-around;
             flex-wrap: wrap;
@@ -220,7 +220,7 @@
             }
         }
         &-item {
-            width: 235px;
+            width: 260px;
             min-height: 400px;
             margin-bottom: 10px;
             &__subtitle {
@@ -269,6 +269,45 @@
             &__back {
                 transform: translateX(calc(-50% - 6px));
             }
+        }
+    }
+    .reviews {
+        &__card {
+            margin-bottom: 30px;
+        }
+        &__avatar {
+            width: 100px;
+            height: 100px;
+            margin-right: 25px;
+        }
+        &__name {
+            font-size: 16px;
+        }
+        &__marathons {
+            font-size: 12px;
+        }
+        &__comment {
+            font-size: 14px;
+            line-height: 20px;
+        }
+    }
+    .footer {
+        height: 210px;
+        iframe {
+            display: none;
+        }
+        &__info {
+            width: 100%;
+            height: 100%;
+            padding: 0;
+            padding-top: 30px;
+        }
+        &__addr {
+            margin-bottom: 10px;
+            font-size: 18px;
+        }
+        &__phone {
+            margin-bottom: 25px;
         }
     }
 }
